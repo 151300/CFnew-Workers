@@ -1,14 +1,4 @@
 # wrangler.toml
-# Cloudflare Workers 部署配置文件
-
-name = "cfnew-worker"     # 您的 Worker 服务名称，在 *.workers.dev 子域名中使用
-main = "worker.js"        # 指定主入口文件，即您从源地址拉取的核心代码
-compatibility_date = "2024-01-01"  # 指定兼容性日期，确保运行环境稳定
-
-# 如需定时触发任务，可在此处配置（可选）
-# [triggers]
-# crons = ["0 8 * * *"]  # 例如：每天 UTC 时间 8:00 执行
-
-# 如需环境变量，可在此处定义（可选）
-# [vars]
-# ENV_NAME = "production"
+name = "cfnew-workers"
+main = "worker.js"
+compatibility_date = "2024-06-17"
