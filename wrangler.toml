@@ -1,4 +1,4 @@
 # wrangler.toml
-name = "cfnew-workers"
+name = "10-7"  # ← 改为这个
 main = "worker.js"
 compatibility_date = "2024-06-17"
